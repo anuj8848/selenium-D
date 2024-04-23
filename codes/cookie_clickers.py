@@ -24,6 +24,6 @@ WebDriverWait(driver,5).until(
 
 cookie=driver.find_element(By.ID,cookie_id)
 
-time.sleep(10)
+sleep(10)
 
 cookie.click()
